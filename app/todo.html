@@ -1,8 +1,8 @@
 <section>
     <header>
         <h1>List your task</h1>
-        <input placeholder="What needs to be done?" autofocus [(ngModel)]="newTodo">
-        
+        <input placeholder="What needs to be done?" autofocus [(ngModel)]="newtodo" (keyup.enter)="addTodo()">
+
     </header>
     <section>
         <input>
